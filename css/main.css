@@ -206,8 +206,8 @@ button {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--main-color-light);
   margin-bottom: 30px;
@@ -221,10 +221,10 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   color: var(--main-color-light);
   background-color: var(--accent-color-two);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -594,11 +594,11 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  letter-spacing: 0.06em;
   color: var(--main-color-light);
   border: none;
   margin: 0 auto;
@@ -631,8 +631,8 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--accent-color-one);
   background-color: var(--background-color-team);
   border-radius: 4px;
@@ -834,31 +834,31 @@ button {
 }
 .form__textarea::-moz-placeholder {
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: 20px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 .form__textarea:-ms-input-placeholder {
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: 20px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 .form__textarea::placeholder {
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: 20px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -930,11 +930,11 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   border: none;
   margin: 0 auto;
   min-width: 200px;

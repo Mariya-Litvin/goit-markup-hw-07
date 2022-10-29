@@ -21,16 +21,13 @@
 }
 
 .foto-card__name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(500, 16px, 1.19, null);
   text-align: center;
   margin-bottom: 10px;
 }
 
 .foto-card__position {
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(null, 16px, 1.19, null);
   text-align: center;
   margin-bottom: 16px;
   color: var(--secondary-color-font);

@@ -56,9 +56,7 @@
 }
 
 .modal__title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(700, 20px, 1.15, null);
   text-align: center;
   margin-bottom: 12px;
 }
@@ -73,10 +71,7 @@
 }
 
 .form__label {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font(400, 12px, 1.17, 0.01em);
   color: var(--secondary-color-font);
   margin-bottom: 4px;
 }
@@ -123,12 +118,9 @@
   }
   &::placeholder {
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: 20px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17px;
-    letter-spacing: 0.01em;
+    @include font(400, 12px, 1.17, 0.01em);
     color: rgba(117, 117, 117, 0.5);
   }
 }
@@ -148,17 +140,13 @@
 
 .checkbox-agree__text {
   margin-left: 8px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(400, 14px, 1.71, null);
   color: var(--secondary-color-font);
 }
 
 .checkbox-agree__link {
   margin-left: 4px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(400, 14px, 1.71, null);
   text-decoration-line: underline;
   color: var(--accent-color-two);
   text-underline-offset: 3px;
@@ -198,14 +186,11 @@
 
 .btn-agree {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(700, 16px, 1.88, 0.06em);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   border: none;
   margin: 0 auto;
   min-width: 200px;
