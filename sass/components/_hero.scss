@@ -50,9 +50,8 @@
   height: 50px;
   transition: background-color var(--transition-duration)
     var(--transition-timing-function);
-}
-
-.hero__btn:hover,
-.hero__btn:focus {
-  background-color: var(--hover-focus-color);
+  &:hover,
+  &:focus {
+    background-color: var(--hover-focus-color);
+  }
 }
